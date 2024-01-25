@@ -1,7 +1,7 @@
 #pip install pandas/sckit-learning/numpy to install libraries that helps in machine learning
 # print("Hello World")
 
-# #Single Assignment of values to Variables
+#Single Assignment of values to Variables
 # x= 19
 # y = "Rayyan"
 # print(y,x);
@@ -45,3 +45,38 @@
 
 # complete = "My Name is {} and my age is {}";
 # print(complete.format(adin,age));
+
+
+
+##CALCULATOR
+def add(a,b):
+    return a+b
+
+def subs(a,b):
+    return a-b
+    
+def mult(a,b):
+    return a*b
+
+def div(a,b):
+    if b != 0:
+        return a/b
+    else:
+        return "Error"
+
+
+num1 = float(input("Enter number 1"))
+operation = input("Enter Operation to perform")
+num2 = float(input("Enter number 2"))
+
+if operation == '+':
+    result = add(num1,num2)
+elif operation == '-':
+    result = subs(num1,num2)
+elif operation == '*':
+    result = mult(num1,num2)
+else:
+    result = div(num1,num2)
+
+
+print(result)
