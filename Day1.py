@@ -49,34 +49,34 @@
 
 
 ##CALCULATOR
-def add(a,b):
-    return a+b
+# def add(a,b):
+#     return a+b
 
-def subs(a,b):
-    return a-b
+# def subs(a,b):
+#     return a-b
     
-def mult(a,b):
-    return a*b
+# def mult(a,b):
+#     return a*b
 
-def div(a,b):
-    if b != 0:
-        return a/b
-    else:
-        return "Error"
-
-
-num1 = float(input("Enter number 1"))
-operation = input("Enter Operation to perform")
-num2 = float(input("Enter number 2"))
-
-if operation == '+':
-    result = add(num1,num2)
-elif operation == '-':
-    result = subs(num1,num2)
-elif operation == '*':
-    result = mult(num1,num2)
-else:
-    result = div(num1,num2)
+# def div(a,b):
+#     if b != 0:
+#         return a/b
+#     else:
+#         return "Error"
 
 
-print(result)
+# num1 = float(input("Enter number 1"))
+# operation = input("Enter Operation to perform")
+# num2 = float(input("Enter number 2"))
+
+# if operation == '+':
+#     result = add(num1,num2)
+# elif operation == '-':
+#     result = subs(num1,num2)
+# elif operation == '*':
+#     result = mult(num1,num2)
+# else:
+#     result = div(num1,num2)
+
+
+# print(result)
