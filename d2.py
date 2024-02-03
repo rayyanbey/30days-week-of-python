@@ -21,3 +21,4 @@
 #     down_payment = 0.2*price
 
 # print("Your Down Payment is {down_payment}")
+
