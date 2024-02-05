@@ -34,3 +34,10 @@
 #     i+=1
 
 # print("Done")
+
+#list 
+# num1 = [1,2,3,4,5]
+
+# num2 = num1.copy()
+#num2.reverse()
+# print(num2)
